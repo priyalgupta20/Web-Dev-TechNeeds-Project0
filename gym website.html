@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Forever</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Vina+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.google.com/specimen/Coda?preview.size=38&query=Vernon+Adams" rel="stylesheet">
+<style>
+     body{
+        background: url('mainpg.jpg');
+        height: 770px;
+        width: 1280px;
+        color: white;
+        }
+        .left{
+            display: inline-block;
+            position: absolute;
+            top: 16px;
+            left: 32px;
+            color: rgb(217, 220, 224);
+            text-align: center;
+            font-family:'Vina Sans', sans-serif;
+            font-size: 20px;
+            padding: 0px 2px;
+        }
+        .centre{
+            border: 2px solid grey;
+            display: block;
+            margin: 20px auto;
+            top: 22px;
+            width: 49%;
+            border-radius: 3px;
+        }
+        .right{
+            display: inline-block;
+            position: absolute;
+            top: 29px;
+            right: 28px;
+            font-size: 19px;
+            text-align: right;
+        }
+        .navbar li{
+            display: inline-block;
+        }
+        .navbar li a{
+            text-decoration: none;
+            color: rgb(153, 153, 153);
+            font-size: 18px;
+            padding: 18px;
+        }
+        .navbar li a:hover{
+            text-decoration: underline;
+            color: rgb(94, 94, 94);
+        }
+        img{
+            width: 116px;
+            height: 58px;
+            border-radius: 30px;
+        }
+        .btn{
+            margin: 3px 6px;
+            padding: 2px 14px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+            font-family: 'Coda';
+        }
+        .btn:hover{
+            color: rgb(118, 129, 145);
+        }
+</style>
+<body>
+    <header>
+        <!--left for logo and name-->
+        <div class="left">
+            <img src="gym logo.jpg" alt="unavailable">
+            <div>Fitness Forever</div>
+        </div>
+        <!--centre for nav bar-->
+        <div class="centre">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Store</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!--right for buttons-->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+</body>
+</html>
